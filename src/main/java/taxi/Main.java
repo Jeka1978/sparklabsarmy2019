@@ -17,6 +17,7 @@ public class Main {
         File file = new File("data/taxi_orders.txt");
 
         JavaRDD<String> rdd = sc.textFile("data/taxi_orders.txt");
+
         System.out.println(rdd.count());
     }
 }
