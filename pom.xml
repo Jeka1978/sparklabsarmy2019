@@ -7,12 +7,7 @@
         <spark.version>2.4.4</spark.version>
     </properties>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
+
 
     <groupId>com.army</groupId>
     <artifactId>spark-labs-army-2019</artifactId>
