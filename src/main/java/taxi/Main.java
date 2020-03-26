@@ -11,6 +11,7 @@ import java.io.File;
  */
 public class Main {
     public static void main(String[] args) {
+
         SparkConf sparkConf = new SparkConf().setMaster("local[*]").setAppName("taxi");
         JavaSparkContext sc = new JavaSparkContext(sparkConf);
 
